@@ -1,6 +1,6 @@
 Name:		texlive-modes
 Version:	61719
-Release:	2
+Release:	3
 Summary:	A collection of Metafont mode_def's
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modes
@@ -33,10 +33,5 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%doc %{_texmfdistdir}/fonts/source/public/modes
+%{_texmfdistdir}/fonts/source/public/modes
 %doc %{_texmfdistdir}/doc/fonts/modes
-
-%post -p %{_sbindir}/texlive.post
-
-%postun
-[ "$1" -eq 0 ] && %{_sbindir}/texlive.post
