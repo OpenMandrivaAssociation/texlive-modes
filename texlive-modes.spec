@@ -1,6 +1,6 @@
 Name:		texlive-modes
-Version:	61719
-Release:	3
+Version:	69113
+Release:	1
 Summary:	A collection of Metafont mode_def's
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modes
