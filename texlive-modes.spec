@@ -3,7 +3,7 @@ Version:	69113
 Release:	1
 Summary:	A collection of Metafont mode_def's
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/modes
 License:	pd
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modes.doc.r%{version}.tar.xz
